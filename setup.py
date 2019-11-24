@@ -30,6 +30,7 @@ setup(
         "Operating System :: OS Independent",
         'Programming Language :: Python :: 2.7',
     ],
+    download_url='https://github.com/vivekka93/tfpred/archive/0.1.0.tar.gz',
     license='Other/Proprietary License',
     platforms='any',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
