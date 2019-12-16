@@ -11,7 +11,7 @@ def processor(classifier, images):
 
 def tfpred(classifier, images):
 
-    p = multiprocessing.Process(target=tfpred, args=(classifier,[images]))
+    p = multiprocessing.Process(target=processor, args=(classifier,[images]))
     p.start()
     p.join()
     ret_values = return_dict.values()
